@@ -33,26 +33,14 @@
     font-weight: 700;
 }
 
-.sign-in, .sign-up {
-    font-size: 12px;
-    text-transform: uppercase;
-    margin-left: 20px;
-    padding: 7px 20px 8px;
-    border-radius: 22px;
-    border: 2px solid #BC9CFF;
-    font-weight: 700;
-    outline: none;
-    text-decoration: none;
-    line-height: 40px;
-}
-
-
 .sign-in {
-    background-color: white;
-    color: #BC9CFF;
+    background-color: white !important;
+    color: #BC9CFF !important;    
+    margin-left: 20px;
 }
 
 .sign-up {
     background-color: #BC9CFF;
-    color: white
+    color: white;    
+    margin-left: 20px;
 }

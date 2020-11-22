@@ -20,10 +20,10 @@
 
       <nav class="navigation">
         <div class="login-form">
-          <a href="#" class="sign-in">
+          <a href="#" class="sign-in btn">
             войти
           </a>
-          <a href="#" class="sign-up">
+          <a href="#" class="sign-up btn">
             зарегистрироваться
           </a>
         </div>
@@ -49,7 +49,36 @@
   </header>
 
   <main class="content">
-    
+    <div class="container">
+      <article class="card">
+        <h1 class="card__header">
+          Найдём номера под ваши пожелания
+        </h1>
+
+        <div class="card__section card__date">
+
+          <div class="card__input-container">
+            <h3>Прибытие</h3>
+            <input class="card__date-input card__input" type="date" name="date-in" />
+          </div>
+
+          <div class="card__input-container">
+            <h3>Выезд</h3>
+            <input class="card__date-input card__input" type="date" name="date-out" />
+          </div>
+
+        </div>
+
+        <div class="card__section card__guests-number">
+          <h3>Гости</h3>
+          <input class="card__input guests-number" type="number" name="guests-number" placeholder="Сколько гостей"/>
+        </div>
+
+        <a href="#" class="btn card__btn">
+          подобрать номер
+        </a>
+      </article>
+    </div>
   </main>
 
 </body>
