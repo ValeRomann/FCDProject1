@@ -1,0 +1,58 @@
+.header {
+    padding: 15px 0;    
+}
+
+.logo {
+    float: left;
+    height: 40px;
+}
+
+.login-form {
+    float: right;
+}
+
+.menu {
+    float: right;
+}
+
+.menu__item {
+    float: left;
+    font-size: 14px;
+    line-height: 17.07px;
+    margin-right: 20px;    
+    line-height: 40px;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: rgba(31, 32, 65, 0.5);;
+}
+
+.menu__item_active {
+    color: rgba(31, 32, 65, 0.75);
+    font-weight: 700;
+}
+
+.sign-in, .sign-up {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 7px 20px 8px;
+    border-radius: 22px;
+    border: 2px solid #BC9CFF;
+    font-weight: 700;
+    outline: none;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
+.sign-in {
+    background-color: white;
+    color: #BC9CFF;
+}
+
+.sign-up {
+    background-color: #BC9CFF;
+    color: white
+}
