@@ -1,0 +1,24 @@
+.footer__discription {
+    width: 280px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+}
+
+.footer__navigation_menu-header {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+
+.footer__navigation_menu-item {
+    height: 18px;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+}

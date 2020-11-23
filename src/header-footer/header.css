@@ -33,6 +33,10 @@
     font-weight: 700;
 }
 
+.login-form .sign-in, .login-form .sign-up {
+    line-height: 40px;
+}
+
 .sign-in {
     background-color: white !important;
     color: #BC9CFF !important;    
