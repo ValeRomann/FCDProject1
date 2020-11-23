@@ -1,11 +1,23 @@
-.footer__discription {
-    width: 280px;
-    font-size: 14px;
-    line-height: 24px;
-}
-
 .logo-footer {
     margin-bottom: 20px;
+}
+
+.footer__discription {
+    width: 260px;
+    margin-right: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    float: left;
+}
+
+.footer__menu {
+    float: left;
+    margin-bottom: 100px;
+    width: 200px;
+}
+
+.footer__menu:last-child {
+    width: 260px;
 }
 
 .footer__navigation_menu-header {
@@ -16,9 +28,35 @@
     color: #1F2041;
 }
 
-.footer__navigation_menu-item {
+.footer__menu_item {
     height: 18px;
     font-size: 14px;
     line-height: 17px;
     color: rgba(31, 32, 65, 0.5);
+    margin-top: 20px;
+}
+
+.footer-bottom {   
+    border-top: 2px solid rgba(31, 32, 65, 0.05);;
+    padding: 26px 0;
+}
+
+.copyright {
+    float: left;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.social {
+    text-align: right;
+}
+
+.social a {
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 23px;
+}
+
+.card__input[type=email] {
+    width: 100%;
 }

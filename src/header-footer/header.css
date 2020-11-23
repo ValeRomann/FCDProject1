@@ -25,16 +25,15 @@
 
 .menu__item a {
     text-decoration: none;
-    color: rgba(31, 32, 65, 0.5);;
 }
 
 .menu__item_active {
-    color: rgba(31, 32, 65, 0.75);
     font-weight: 700;
 }
 
 .login-form .sign-in, .login-form .sign-up {
-    line-height: 40px;
+    line-height: 40px;    
+    padding: 7px 20px 8px;
 }
 
 .sign-in {
